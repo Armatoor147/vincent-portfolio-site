@@ -34,8 +34,8 @@ interface SkillsComponentProps {
 }
 
 function SkillsComponent({ mode, text, skills }: SkillsComponentProps) {
-	var bg_colour = COLOUR_1;
-	var card_colour = COLOUR_2;
+	let bg_colour = COLOUR_1;
+	let card_colour = COLOUR_2;
 	if (mode === "light") {
 		bg_colour = COLOUR_2;
 		card_colour = COLOUR_1;
