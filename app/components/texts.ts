@@ -30,7 +30,7 @@ export const webPageText: Record<Language, TextContent> = {
             biography_p2: "Passionate about coding, I am eager to collaborate with a development team to contribute to innovative projects. My analytical mindset and problem-solving skills drive me to explore how technology can solve real-world challenges."
         },
         SkillsSection: {
-            skill_categories: ["Programming Languages", "Database Management", "Cloud Services", "Infrastructure as Code", "Data Pipelines", "APIs and Web Servers", "Version Control", "Testing", "Data_Analysis", "AI_Frameworks", "Website Development", "Methodology"]
+            skill_categories: ["Programming Languages", "Database Management", "Cloud Services", "Infrastructure as Code", "Data Pipelines", "APIs and Web Servers", "Version Control", "Testing", "Data Analysis", "AI Frameworks", "Website Development", "Methodology"]
         },
         ProjectSection: {
             title: "Projects",
