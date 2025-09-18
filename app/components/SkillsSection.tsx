@@ -59,15 +59,15 @@ function SkillsComponent({ mode, text, skills }: SkillsComponentProps) {
 	)
 }
 
-const programming_languages = ['Python', 'SQL', 'HTML/CSS', 'JavaScript/TypeScript']
+const programming_languages = ['Python', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C']
 const database_management = ['Excel', 'SQL', 'PostgreSQL', 'MongoDB', 'Database Modeling', 'Normalisation', 'Star Schema', 'Warehouse Design']
 const cloud_services = ['AWS', 'Microsoft Azure', 'Google Cloud']
 const infrastructure_as_code = ['Terraform', 'YAML']
 const data_pipelines = ['ETL pipelines']
-const APIs_and_web_servers = ['FastAPI', 'Django', 'Flask', 'http.server', 'Python requests', 'Express.js', 'CORS', 'Axios', 'Client-Server architecture']
+const APIs_and_web_servers = ['FastAPI', 'Django', 'Flask', 'http.server', 'Python requests', 'Express.js', 'CORS', 'Axios', 'Client-Server Architecture']
 const version_control = ['Git', 'GitHub']
 const testing = ['Test-Driven Development', 'Pytest']
 const data_analysis = ['Numpy', 'Pandas', 'Matplotlib', 'SciPy']
 const AI_frameworks = ['PyTorch', 'TensorFlow', 'LangChain', 'LangGraph', 'LlamaIndex', 'Scikit-Learn']
 const website_development = ['Node.js', 'Next.js', 'React.js', 'TailwindCSS']
-const methodology = ['Agile/Scrum', 'Trello']
+const methodology = ['Agile', 'Trello']

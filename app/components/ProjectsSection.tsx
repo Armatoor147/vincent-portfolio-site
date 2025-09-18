@@ -49,5 +49,15 @@ const projects = [
 		},
 		website_link: "https://newyorktimesgames.streamlit.app/letter_boxed_streamlit",
 		github_link: "https://github.com/Armatoor147/New_York_Times_Games"
+	},
+	{
+		title: {
+			EN: webPageText.EN.ProjectSection.project_titles[1],
+			FR: webPageText.FR.ProjectSection.project_titles[1],
+			ES: webPageText.ES.ProjectSection.project_titles[1],
+			DE: webPageText.DE.ProjectSection.project_titles[1]
+		},
+		website_link: "https://github.com/Armatoor147/team-fenor-de-project",
+		github_link: "https://github.com/Armatoor147/team-fenor-de-project"
 	}
 ]
