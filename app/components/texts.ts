@@ -36,7 +36,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Projects",
             website_link_button: "View App",
             github_link_button: "View GitHub",
-            project_titles: ["The New York Times Solver"]
+            project_titles: ["The New York Times Solver", "Data Engineering Bootcamp"]
         },
         ContactSection: {
             title: "Contact Information"
@@ -56,7 +56,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Projets",
             website_link_button: "Voir l'Application",
             github_link_button: "Voir GitHub",
-            project_titles: ["Le Résolveur du New York Times"]
+            project_titles: ["Le Résolveur du New York Times", "Bootcamp en Ingénierie des Données"]
         },
         ContactSection: {
             title: "Informations de Contact"
@@ -76,7 +76,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Proyectos",
             website_link_button: "Ver la Aplicación",
             github_link_button: "Ver GitHub",
-            project_titles: ["El Solucionador del New York Times"]
+            project_titles: ["El Solucionador del New York Times", "Bootcamp en Ingeniería de Datos"]
         },
         ContactSection: {
             title: "Información de Contacto"
@@ -96,7 +96,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Projekte",
             website_link_button: "App Anzeigen",
             github_link_button: "GitHub Anzeigen",
-            project_titles: ["Der New York Times Löser"]
+            project_titles: ["Der New York Times Löser", "Data-Engineering-Bootcamp"]
         },
         ContactSection: {
             title: "Kontaktinformationen"
