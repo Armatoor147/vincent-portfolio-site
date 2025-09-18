@@ -50,7 +50,7 @@ export const webPageText: Record<Language, TextContent> = {
             biography_p2: "Passionné par le code, je souhaite rejoindre une équipe de développement pour contribuer à des projets innovants. Mon esprit analytique et mes compétences en résolution de problèmes me poussent à explorer comment la technologie peut répondre aux défis concrets du monde réel."
         },
         SkillsSection: {
-            skill_categories: ["Langages de Programmation", "Gestion de Bases de Données", "Services Cloud", "Infrastructure as Code", "Pipelines de Données", "APIs et Serveurs Web", "Contrôle de Version", "Tests", "Analyse de Données", "Frameworks IA", "Développement Web", "Méthodologie"]
+            skill_categories: ["Langages de Programmation", "Gestion de Bases de Données", "Services Cloud", "Infrastructure as Code", "Pipelines de Données", "APIs et Serveurs Web", "Contrôle de Version", "Tests", "Analyse des Données", "Frameworks IA", "Développement Web", "Méthodologie"]
         },
         ProjectSection: {
             title: "Projets",
