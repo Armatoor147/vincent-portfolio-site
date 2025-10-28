@@ -21,9 +21,11 @@ export default function ProjectsSection({ language }: ProjectsSectionProps) {
 								<h3 className="text-base sm:text-lg font-semibold text-white mb-2">{project.title[language as Language]}</h3>
 								<p className="text-sm sm:text-base text-gray-300 mb-4"></p>
 								<div className="flex flex-col gap-2">
-									<a href={project.website_link} className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
-										{webPageText[language as Language].ProjectSection.website_link_button} →
-									</a>
+									{project.website_link && (
+										<a href={project.website_link} className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+											{webPageText[language as Language].ProjectSection.website_link_button} →
+										</a>
+									)}
 									<a href={project.github_link} className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
 										{webPageText[language as Language].ProjectSection.github_link_button} →
 									</a>
@@ -57,7 +59,6 @@ const projects = [
 			ES: webPageText.ES.ProjectSection.project_titles[1],
 			DE: webPageText.DE.ProjectSection.project_titles[1]
 		},
-		website_link: "https://github.com/Armatoor147/team-fenor-de-project",
 		github_link: "https://github.com/Armatoor147/team-fenor-de-project"
 	}
 ]
