@@ -60,5 +60,14 @@ const projects = [
 			DE: webPageText.DE.ProjectSection.project_titles[1]
 		},
 		github_link: "https://github.com/Armatoor147/team-fenor-de-project"
+	},
+	{
+		title: {
+			EN: webPageText.EN.ProjectSection.project_titles[2],
+			FR: webPageText.FR.ProjectSection.project_titles[2],
+			ES: webPageText.ES.ProjectSection.project_titles[2],
+			DE: webPageText.DE.ProjectSection.project_titles[2]
+		},
+		github_link: "https://github.com/Armatoor147/aws-gdpr-guard"
 	}
 ]
