@@ -79,10 +79,16 @@ const skills = {
     DE: ['AWS', 'Microsoft Azure', 'Google Cloud']
   },
   infrastructure_as_code: {
-    EN: ['Terraform', 'YAML'],
-    FR: ['Terraform', 'YAML'],
-    ES: ['Terraform', 'YAML'],
-    DE: ['Terraform', 'YAML']
+    EN: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)'],
+    FR: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)'],
+    ES: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)'],
+    DE: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)']
+  },
+  containerisation_and_orchestration: {
+	EN: ['Docker', 'Kubernetes'],
+	FR: ['Docker', 'Kubernetes'],
+	ES: ['Docker', 'Kubernetes'],
+	DE: ['Docker', 'Kubernetes']
   },
   data_pipelines: {
     EN: ['ETL pipelines'],

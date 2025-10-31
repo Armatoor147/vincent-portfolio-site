@@ -30,7 +30,7 @@ export const webPageText: Record<Language, TextContent> = {
             biography_p2: "Passionate about coding, I am eager to collaborate with a development team to contribute to innovative projects. My analytical mindset and problem-solving skills drive me to explore how technology can solve real-world challenges."
         },
         SkillsSection: {
-            skill_categories: ["Programming Languages", "Database Management", "Cloud Services", "Infrastructure as Code", "Data Pipelines", "APIs and Web Servers", "Version Control", "Testing", "Data Analysis", "AI Frameworks", "Website Development", "Methodology"]
+            skill_categories: ["Programming Languages", "Database Management", "Cloud Services", "Infrastructure as Code", "Containerisation & Orchestration", "Data Pipelines", "APIs and Web Servers", "Version Control", "Testing", "Data Analysis", "AI Frameworks", "Website Development", "Methodology"]
         },
         ProjectSection: {
             title: "Projects",
@@ -50,7 +50,7 @@ export const webPageText: Record<Language, TextContent> = {
             biography_p2: "Passionné par le code, je souhaite rejoindre une équipe de développement pour contribuer à des projets innovants. Mon esprit analytique et mes compétences en résolution de problèmes me poussent à explorer comment la technologie peut répondre aux défis concrets du monde réel."
         },
         SkillsSection: {
-            skill_categories: ["Langages de Programmation", "Gestion de Bases de Données", "Services Cloud", "Infrastructure as Code", "Pipelines de Données", "APIs et Serveurs Web", "Contrôle de Version", "Tests", "Analyse des Données", "Frameworks IA", "Développement Web", "Méthodologie"]
+            skill_categories: ["Langages de Programmation", "Gestion de Bases de Données", "Services Cloud", "Infrastructure as Code", "Conteneurisation & Orchestration", "Pipelines de Données", "APIs et Serveurs Web", "Contrôle de Version", "Tests", "Analyse des Données", "Frameworks IA", "Développement Web", "Méthodologie"]
         },
         ProjectSection: {
             title: "Projets",
@@ -70,7 +70,7 @@ export const webPageText: Record<Language, TextContent> = {
             biography_p2: "Apasionado por la programación, estoy deseando colaborar con un equipo de desarrollo para aportar a proyectos innovadores. Mi mentalidad analítica y mis habilidades para resolver problemas me impulsan a explorar cómo la tecnología puede abordar desafíos del mundo real."
         },
         SkillsSection: {
-            skill_categories: ["Lenguajes de Programación", "Gestión de Bases de Datos", "Servicios en la Nube", "Infrastructure as Code", "Pipelines de Datos", "APIs y Servidores Web", "Control de Versiones", "Pruebas", "Análisis de Datos", "Frameworks de IA", "Desarrollo Web", "Metodología"]
+            skill_categories: ["Lenguajes de Programación", "Gestión de Bases de Datos", "Servicios en la Nube", "Infrastructure as Code", "Contenedorización y Orquestación", "Pipelines de Datos", "APIs y Servidores Web", "Control de Versiones", "Pruebas", "Análisis de Datos", "Frameworks de IA", "Desarrollo Web", "Metodología"]
         },
         ProjectSection: {
             title: "Proyectos",
@@ -90,7 +90,7 @@ export const webPageText: Record<Language, TextContent> = {
             biography_p2: "Als codebegeisterter Entwickler möchte ich mich in ein Entwicklungsteam einbringen, um an innovativen Projekten mitzuwirken. Mein analytisches Denken und meine Problemlösungsfähigkeiten treiben mich an, zu erforschen, wie Technologie reale Herausforderungen bewältigen kann."
         },
         SkillsSection: {
-            skill_categories: ["Programmiersprachen", "Datenbankverwaltung", "Cloud-Dienste", "Infrastructure as Code", "Datenpipelines", "APIs und Webserver", "Versionskontrolle", "Tests", "Datenanalyse", "KI-Frameworks", "Webentwicklung", "Methodik"]
+            skill_categories: ["Programmiersprachen", "Datenbankverwaltung", "Cloud-Dienste", "Infrastructure as Code", "Containerisierung & Orchestrierung", "Datenpipelines", "APIs und Webserver", "Versionskontrolle", "Tests", "Datenanalyse", "KI-Frameworks", "Webentwicklung", "Methodik"]
         },
         ProjectSection: {
             title: "Projekte",
