@@ -98,10 +98,10 @@ const skills = {
     DE: ['ETL-Pipelines']
   },
   APIs_and_web_servers: {
-    EN: ['FastAPI', 'Django', 'Flask', 'http.server', 'Python requests', 'Express.js', 'CORS', 'Axios', 'Client-Server Architecture'],
-    FR: ['FastAPI', 'Django', 'Flask', 'http.server', 'Requêtes Python', 'Express.js', 'CORS', 'Axios', 'Architecture Client-Serveur'],
-    ES: ['FastAPI', 'Django', 'Flask', 'http.server', 'Peticiones Python', 'Express.js', 'CORS', 'Axios', 'Arquitectura Cliente-Servidor'],
-    DE: ['FastAPI', 'Django', 'Flask', 'http.server', 'Python Requests', 'Express.js', 'CORS', 'Axios', 'Client-Server-Architektur']
+    EN: ['FastAPI', 'Django', 'Flask', 'Express.js', 'RESTful APIs', 'CORS', 'Axios', 'Insomnia'],
+    FR: ['FastAPI', 'Django', 'Flask', 'Express.js', 'API RESTful', 'CORS', 'Axios', 'Insomnia'],
+    ES: ['FastAPI', 'Django', 'Flask', 'Express.js', 'API RESTful', 'CORS', 'Axios', 'Insomnia'],
+    DE: ['FastAPI', 'Django', 'Flask', 'Express.js', 'RESTful-API', 'CORS', 'Axios', 'Insomnia']
   },
   version_control: {
     EN: ['Git', 'GitHub'],
