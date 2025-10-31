@@ -15,7 +15,7 @@ export default function ProjectsSection({ language }: ProjectsSectionProps) {
 					{projects.map((project) => (
 						<div key={project.title[language as Language]} className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
 							<div className="aspect-video bg-gray-700 relative">
-								<Image src={`/code.jpg`} alt={`Project ${project}`} fill className="object-cover" />
+								<Image src={project.image_file} alt={`Project ${project}`} fill className="object-cover" />
 							</div>
 							<div className="p-4 sm:p-6">
 								<h3 className="text-base sm:text-lg font-semibold text-white mb-2">{project.title[language as Language]}</h3>
@@ -49,6 +49,7 @@ const projects = [
 			ES: webPageText.ES.ProjectSection.project_titles[0],
 			DE: webPageText.DE.ProjectSection.project_titles[0]
 		},
+		image_file: "/project1.jpg",
 		website_link: "https://newyorktimesgames.streamlit.app/letter_boxed_streamlit",
 		github_link: "https://github.com/Armatoor147/New_York_Times_Games"
 	},
@@ -59,6 +60,7 @@ const projects = [
 			ES: webPageText.ES.ProjectSection.project_titles[1],
 			DE: webPageText.DE.ProjectSection.project_titles[1]
 		},
+		image_file: "/project2.jpg",
 		github_link: "https://github.com/Armatoor147/team-fenor-de-project"
 	},
 	{
@@ -68,6 +70,7 @@ const projects = [
 			ES: webPageText.ES.ProjectSection.project_titles[2],
 			DE: webPageText.DE.ProjectSection.project_titles[2]
 		},
+		image_file: "/project3.jpg",
 		github_link: "https://github.com/Armatoor147/aws-gdpr-guard"
 	}
 ]
