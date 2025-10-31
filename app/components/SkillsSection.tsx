@@ -12,14 +12,15 @@ export default function SkillsSection({ language }: SkillsSectionProps) {
 			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[1]} skills={skills.database_management[language as Language]} />
 			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[2]} skills={skills.cloud_services[language as Language]} />
 			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[3]} skills={skills.infrastructure_as_code[language as Language]} />
-			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[4]} skills={skills.data_pipelines[language as Language]} />
-			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[5]} skills={skills.APIs_and_web_servers[language as Language]} />
-			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[6]} skills={skills.version_control[language as Language]} />
-			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[7]} skills={skills.testing[language as Language]} />
-			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[8]} skills={skills.data_analysis[language as Language]} />
-			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[9]} skills={skills.AI_frameworks[language as Language]} />
-			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[10]} skills={skills.website_development[language as Language]} />
-			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[11]} skills={skills.methodology[language as Language]} />
+      <SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[4]} skills={skills.containerisation_and_orchestration[language as Language]} />
+			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[5]} skills={skills.data_pipelines[language as Language]} />
+			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[6]} skills={skills.APIs_and_web_servers[language as Language]} />
+			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[7]} skills={skills.version_control[language as Language]} />
+			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[8]} skills={skills.testing[language as Language]} />
+			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[9]} skills={skills.data_analysis[language as Language]} />
+			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[10]} skills={skills.AI_frameworks[language as Language]} />
+			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[11]} skills={skills.website_development[language as Language]} />
+			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[12]} skills={skills.methodology[language as Language]} />
 		</div>
 	);
 }
