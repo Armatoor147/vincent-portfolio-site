@@ -36,7 +36,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Projects",
             website_link_button: "View App",
             github_link_button: "View GitHub",
-            project_titles: ["The New York Times Solver", "ETL pipeline (AWS)", "GDPR Obfuscator Project"]
+            project_titles: ["The New York Times Solver", "ETL Pipeline (AWS)", "GDPR Obfuscator Project", "Financial Fraud Detection"]
         },
         ContactSection: {
             title: "Contact Information"
@@ -56,7 +56,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Projets",
             website_link_button: "Voir l'Application",
             github_link_button: "Voir GitHub",
-            project_titles: ["Le Résolveur du New York Times", "Pipeline ETL (AWS)", "Projet d'Obfuscation RGPD"]
+            project_titles: ["Le Résolveur du New York Times", "Pipeline ETL (AWS)", "Projet d'Obfuscation RGPD", "Détection de fraude financière"]
         },
         ContactSection: {
             title: "Informations de Contact"
@@ -76,7 +76,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Proyectos",
             website_link_button: "Ver la Aplicación",
             github_link_button: "Ver GitHub",
-            project_titles: ["El Solucionador del New York Times", "Pipeline ETL (AWS)", "Proyecto de Ofuscación de GDPR"]
+            project_titles: ["El Solucionador del New York Times", "Pipeline ETL (AWS)", "Proyecto de Ofuscación de GDPR", "Detección de fraude financiero"]
         },
         ContactSection: {
             title: "Información de Contacto"
@@ -96,7 +96,7 @@ export const webPageText: Record<Language, TextContent> = {
             title: "Projekte",
             website_link_button: "App Anzeigen",
             github_link_button: "GitHub Anzeigen",
-            project_titles: ["Der New York Times Löser", "ETL-Pipeline (AWS)", "GDPR-Verschleierungsprojekt"]
+            project_titles: ["Der New York Times Löser", "ETL-Pipeline (AWS)", "GDPR-Verschleierungsprojekt", "Erkennung von Finanzbetrug"]
         },
         ContactSection: {
             title: "Kontaktinformationen"

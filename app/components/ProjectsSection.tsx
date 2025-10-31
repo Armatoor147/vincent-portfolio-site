@@ -72,5 +72,15 @@ const projects = [
 		},
 		image_file: "/project3.jpg",
 		github_link: "https://github.com/Armatoor147/aws-gdpr-guard"
+	},
+	{
+		title: {
+			EN: webPageText.EN.ProjectSection.project_titles[3],
+			FR: webPageText.FR.ProjectSection.project_titles[3],
+			ES: webPageText.ES.ProjectSection.project_titles[3],
+			DE: webPageText.DE.ProjectSection.project_titles[3]
+		},
+		image_file: "/project4.jpg",
+		github_link: "https://github.com/Armatoor147/financial-fraud-detection"
 	}
 ]
