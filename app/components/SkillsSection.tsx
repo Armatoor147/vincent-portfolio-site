@@ -18,9 +18,10 @@ export default function SkillsSection({ language }: SkillsSectionProps) {
 			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[7]} skills={skills.version_control[language as Language]} />
 			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[8]} skills={skills.testing[language as Language]} />
 			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[9]} skills={skills.data_analysis[language as Language]} />
-			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[10]} skills={skills.AI_frameworks[language as Language]} />
-			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[11]} skills={skills.website_development[language as Language]} />
-			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[12]} skills={skills.methodology[language as Language]} />
+      <SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[10]} skills={skills.visualisation_tools[language as Language]} />
+			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[11]} skills={skills.AI_frameworks[language as Language]} />
+			<SkillsComponent mode="dark" text={webPageText[language as Language].SkillsSection.skill_categories[12]} skills={skills.website_development[language as Language]} />
+			<SkillsComponent mode="light" text={webPageText[language as Language].SkillsSection.skill_categories[13]} skills={skills.methodology[language as Language]} />
 		</div>
 	);
 }
@@ -120,6 +121,12 @@ const skills = {
     FR: ['Numpy', 'Pandas', 'Matplotlib', 'SciPy'],
     ES: ['Numpy', 'Pandas', 'Matplotlib', 'SciPy'],
     DE: ['Numpy', 'Pandas', 'Matplotlib', 'SciPy']
+  },
+  visualisation_tools: {
+    EN: ['Looker', 'Amazon QuickSight'],
+    FR: ['Looker', 'Amazon QuickSight'],
+    ES: ['Looker', 'Amazon QuickSight'],
+    DE: ['Looker', 'Amazon QuickSight']
   },
   AI_frameworks: {
     EN: ['PyTorch', 'TensorFlow', 'LangChain', 'LangGraph', 'LlamaIndex', 'Scikit-Learn'],
