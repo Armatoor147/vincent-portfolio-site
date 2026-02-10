@@ -63,28 +63,46 @@ function SkillsComponent({ mode, text, skills }: SkillsComponentProps) {
 
 const skills = {
   programming_languages: {
-    EN: ['Python', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C'],
-    FR: ['Python', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C'],
-    ES: ['Python', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C'],
-    DE: ['Python', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C']
+    EN: ['Python', 'SQL', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C#', 'Shell'],
+    FR: ['Python', 'SQL', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C#', 'Shell'],
+    ES: ['Python', 'SQL', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C#', 'Shell'],
+    DE: ['Python', 'SQL', 'HTML/CSS', 'JavaScript/TypeScript', 'MATLAB', 'Java', 'C#', 'Shell']
   },
-  database_management: {
+  database_management_: {
     EN: ['Excel', 'SQL', 'PostgreSQL', 'MongoDB', 'Database Modeling', 'Normalisation', 'Star Schema', 'Warehouse Design'],
     FR: ['Excel', 'SQL', 'PostgreSQL', 'MongoDB', 'Modélisation de base de données', 'Normalisation', 'Schéma en étoile', 'Conception d\'entrepôt de données'],
     ES: ['Excel', 'SQL', 'PostgreSQL', 'MongoDB', 'Modelado de bases de datos', 'Normalización', 'Esquema de estrella', 'Diseño de almacén de datos'],
     DE: ['Excel', 'SQL', 'PostgreSQL', 'MongoDB', 'Datenbankmodellierung', 'Normalisierung', 'Sternschema', 'Data-Warehouse-Design']
   },
+  database_management: {
+    EN: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel'],
+    FR: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel'],
+    ES: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel'],
+    DE: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel']
+  },
+  database_modelling: {
+    EN: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel'],
+    FR: ['Entrepôts de données, Normalisation, Schéma en étoile, ORM'],
+    ES: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel'],
+    DE: ['RDB (PostgreSQL)', 'NoSQL (MongoDB)', 'Excel']
+  },
   cloud_services: {
-    EN: ['AWS', 'Microsoft Azure', 'Google Cloud'],
-    FR: ['AWS', 'Microsoft Azure', 'Google Cloud'],
-    ES: ['AWS', 'Microsoft Azure', 'Google Cloud'],
-    DE: ['AWS', 'Microsoft Azure', 'Google Cloud']
+    EN: ['AWS', 'Azure'],
+    FR: ['AWS', 'Azure'],
+    ES: ['AWS', 'Azure'],
+    DE: ['AWS', 'Azure']
   },
   infrastructure_as_code: {
-    EN: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)'],
-    FR: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)'],
-    ES: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)'],
-    DE: ['Terraform', 'DevOps', 'CI/CD (YAML, GitHub Actions)']
+    EN: ['Terraform'],
+    FR: ['Terraform'],
+    ES: ['Terraform'],
+    DE: ['Terraform']
+  },
+  devops: {
+    EN: ['CI/CD (GitHub Actions)'],
+    FR: ['CI/CD (GitHub Actions)'],
+    ES: ['CI/CD (GitHub Actions)'],
+    DE: ['CI/CD (GitHub Actions)']
   },
   containerisation_and_orchestration: {
 	EN: ['Docker', 'Kubernetes'],
@@ -93,16 +111,22 @@ const skills = {
 	DE: ['Docker', 'Kubernetes']
   },
   data_pipelines: {
-    EN: ['ETL pipelines'],
-    FR: ['Pipelines ETL'],
-    ES: ['Pipelines ETL'],
-    DE: ['ETL-Pipelines']
+    EN: ['ETL, ELT'],
+    FR: ['ETL, ELT'],
+    ES: ['ETL, ELT'],
+    DE: ['ETL, ELT']
   },
   APIs_and_web_servers: {
-    EN: ['FastAPI', 'Django', 'Flask', 'Express.js', 'RESTful APIs', 'CORS', 'Axios', 'Insomnia'],
-    FR: ['FastAPI', 'Django', 'Flask', 'Express.js', 'API RESTful', 'CORS', 'Axios', 'Insomnia'],
-    ES: ['FastAPI', 'Django', 'Flask', 'Express.js', 'API RESTful', 'CORS', 'Axios', 'Insomnia'],
-    DE: ['FastAPI', 'Django', 'Flask', 'Express.js', 'RESTful-API', 'CORS', 'Axios', 'Insomnia']
+    EN: ['FastAPI', 'Django', 'Flask', 'Express.js', '.NET', 'RESTful APIs', 'CORS', 'Axios', 'Insomnia'],
+    FR: ['FastAPI', 'Django', 'Flask', 'Express.js', '.NET', 'API RESTful', 'CORS', 'Axios', 'Insomnia'],
+    ES: ['FastAPI', 'Django', 'Flask', 'Express.js', '.NET', 'API RESTful', 'CORS', 'Axios', 'Insomnia'],
+    DE: ['FastAPI', 'Django', 'Flask', 'Express.js', '.NET', 'RESTful-API', 'CORS', 'Axios', 'Insomnia']
+  },
+  website_development: {
+    EN: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS'],
+    FR: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS'],
+    ES: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS'],
+    DE: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS']
   },
   version_control: {
     EN: ['Git', 'GitHub'],
@@ -133,12 +157,6 @@ const skills = {
     FR: ['PyTorch', 'TensorFlow', 'LangChain', 'LangGraph', 'LlamaIndex', 'Scikit-Learn'],
     ES: ['PyTorch', 'TensorFlow', 'LangChain', 'LangGraph', 'LlamaIndex', 'Scikit-Learn'],
     DE: ['PyTorch', 'TensorFlow', 'LangChain', 'LangGraph', 'LlamaIndex', 'Scikit-Learn']
-  },
-  website_development: {
-    EN: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS'],
-    FR: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS'],
-    ES: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS'],
-    DE: ['Node.js', 'Next.js', 'React.js', 'TailwindCSS']
   },
   methodology: {
     EN: ['Agile', 'Trello'],
